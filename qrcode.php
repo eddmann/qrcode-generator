@@ -1,7 +1,5 @@
 <?php
 
-error_reporting(1);
-
 class QRCode
 {
 
@@ -74,7 +72,7 @@ class QRCode
   * @return array           $text, $size, $border   formatted options
   *
   */
-  private static function _retrieve_params($a, $b, $c) {
+  public static function _retrieve_params($a, $b, $c) {
     $text = self::$default_text;
     $size = self::$default_sizes[self::$default_size];
     $border = self::$default_border;

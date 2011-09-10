@@ -1,6 +1,6 @@
 <?php
 
-require_once('qrcode.php');
+require_once('../QRCode.php');
 
 header('Content-Type: image/png');
 
